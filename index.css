@@ -41,7 +41,7 @@ a {
 img {
     height: 9vh
 }
-a:hover {
+.nav:hover {
     color: white;
     border-bottom: 3px solid white;
 }
