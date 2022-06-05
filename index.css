@@ -40,12 +40,33 @@ a {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    padding-bottom: 60px;
+    padding-top: 15px;
 }
-img {
+.logo-dogo {
     width: 20%;
 }
 .nav:hover {
     color: white;
     letter-spacing: 0.25em;
     text-shadow: 0px 0px 10px rgba(255,255,255,0.6);
+}
+.container-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    flex-wrap: wrap;
+}
+.container-header img {
+    width: 30%;
+}
+.container-inicio {
+    width: 50%;
+}
+.container-inicio p {
+    font-size: 2em;
+    width: 90%;
+    font-weight: 400;
 }
