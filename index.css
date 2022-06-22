@@ -2,6 +2,9 @@
     font-family: Roboto;
     src: url(Font/Roboto-Regular.ttf);
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     color: #E8E6E3;
     padding: 0;
@@ -25,7 +28,7 @@ nav {
     margin: 0;
     flex-wrap: wrap;
 }
-a {
+.navegacion a {
     color: #aba499;
     text-decoration: none;
     text-transform: uppercase;
@@ -63,6 +66,11 @@ a {
 .container-inicio {
     width: 40%;
 }
+.container-inicio h1 {
+    letter-spacing: 0.25em;
+    font-weight: 600;
+    font-size: 3em;
+}
 .container-inicio p {
     color: #aba499;
     font-size: 1.5em;
@@ -80,7 +88,6 @@ a {
     margin-top: 2.5rem;
 }
 .boton1 {
-    position: absolute;
     display: inline-block;
     color: #aba499;
     text-decoration: none;
@@ -112,20 +119,59 @@ a {
     font-weight: 600;
     font-size: 3em;
 }
-.Serviciosx3 {
-    width: 70%;
-    margin-top: 2.5rem;
-    padding: 20px;
+.container-servicios {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+}
+.Serviciosx3 {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    background-color: #353846 ;
-    border-radius: 15px;
-    box-shadow: 0 0 10px #353846;
+    justify-content: space-evenly;
+    width: 25%;
+    padding: 15px 20px 15px;
+    margin-top: 2.5rem;
+    background-color: #353846;
+    border-radius: 25px;
 }
-.section-servicios img {
-    width: 30%;
+.Serviciosx3 img {
+    width: 55%;
 }
-.section-servicios p {
-    width: 50%;
+.boton-verx3 {
+    color: #aba499;
+    padding: 15px 45px;
+    text-decoration: none;
+    border: 3px solid rgb(186, 117, 0);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.boton-verx3:hover{
+    color: #ba7500;
+    animation: pulsate 1s ease-in-out;
+}
+.contact{
+    display: flex;
+    width: 100%;
+    padding: 8rem 0rem 8rem;
+    margin-top: 8rem;
+    justify-content: space-around;
+    background-color: #353846;
+}
+.containter-contacto h2{
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.25em;
+    font-weight: 600;
+    font-size: 2em;
+}
+.containter-contacto p{
+    color: #aba499;
+    font-weight: 400;
+}
+footer{
+    padding: 2rem 0rem 2rem;
+    display: flex;
+    justify-content: center;
 }

@@ -3,10 +3,28 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Juan Manuel Ramon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Challenge Landing Page | Diseño Web</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="./icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./icon/favicon-16x16.png">
+    <link rel="manifest" href="./icon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
@@ -19,9 +37,9 @@
                 <li><a href="./index.html" class="nav">Inicio</a></li>
                 <li><a href="#servicios" class="nav">Servicios</a></li>
                 <li><a href="#" class="nav">Clientes</a></li>
-                <li><a href="#" class="nav">Contacto</a></li>
+                <li><a href="#contact" class="nav">Contacto</a></li>
             </ul>
-        </nav> 
+        </nav>
     </header>
     <div class="container-header">
         <div class="container-inicio">
@@ -34,36 +52,73 @@
                 Dicta inventore minus unde nesciunt consequatur minima voluptatem! Aut nobis laboriosam
                 necessitatibus praesentium! Porro!
             </p>
-            <a href="#" class="boton1">Contacto</a>
+            <a href="#contact" class="boton1">Contacto</a>
         </div>
-        <img src="./img/undraw_playing_fetch_cm19.svg"
-            alt="Paseo">
+        <img src="./img/undraw_playing_fetch_cm19.svg" alt="Paseo">
     </div>
     <!--Apartir de aca todo en construccion-->
     <section class="section-servicios" id="servicios">
         <h2>Nuestros Servicios</h2>
-        <h2>!!---Seccion en construccion---!!</h2>
-        <div class="container-paseo Serviciosx3">
-            <img src="./img/Paseo.svg" alt="Paseo">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nemo, ipsa, officiis, accusamus adipisci sit
-                blanditiis totam beatae earum perspiciatis labore dolorem numquam consequatur tenetur laudantium eveniet
-                maxime itaque! Repudiandae.</p>
-        </div>
-        <div class="container-baño Serviciosx3">
-            <img src="./img/bano-canino.png" alt="baño">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi corporis consequatur veritatis
-                expedita repudiandae! Incidunt dolorum ipsam nobis molestias similique maxime, qui, aut necessitatibus
-                voluptas tempore inventore, sint excepturi nihil?</p>
-        </div>
-        <div class="container-training Serviciosx3">
-            <img src="./img/Entrenar.png" alt="Training">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus corporis non sit commodi sint
-                delectus nam doloribus quia? Adipisci recusandae voluptas, temporibus at id iure culpa eaque voluptate.
-                Asperiores, quasi.</p>
+        <div class="container-servicios">
+            <div class="container-paseo Serviciosx3">
+                <img src="./img/Paseo.svg" alt="Paseo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nemo, ipsa, officiis, accusamus adipisci
+                    sit
+                    blanditiis totam beatae earum perspiciatis labore dolorem numquam consequatur tenetur laudantium
+                    eveniet
+                    maxime itaque! Repudiandae.</p>
+                <a href="#" class="boton-verx3">Ver Mas</a>
+            </div>
+            <div class="container-baño Serviciosx3">
+                <img src="./img/bano-canino.png" alt="baño">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi corporis consequatur veritatis
+                    expedita repudiandae! Incidunt dolorum ipsam nobis molestias similique maxime, qui, aut
+                    necessitatibus
+                    voluptas tempore inventore, sint excepturi nihil?</p>
+                <a href="#" class="boton-verx3">Ver Mas</a>
+            </div>
+            <div class="container-training Serviciosx3">
+                <img src="./img/Entrenar.png" alt="Training">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus corporis non sit commodi sint
+                    delectus nam doloribus quia? Adipisci recusandae voluptas, temporibus at id iure culpa eaque
+                    voluptate.
+                    Asperiores, quasi.</p>
+                <a href="#" class="boton-verx3">Ver Mas</a>
+            </div>
         </div>
     </section>
-
-
+    <section id="contact" class="contact">
+        <div class="containter-contacto">
+            <h2>Contacto</h2>
+            <span class="division-barra"></span>
+            <p>¿Quieres Contactarnos?</p>
+            <p>un mensaje a mail@mail.com</p>
+            <p> o utiliza nuestro formulario de contacto</p>
+        </div>
+        <div class="formulario">
+            <div class="name">
+                <label for="input-name">Name</label>
+                <input type="text" id="input-name" required="required" name="name" autocomplete="name"
+                    placeholder="Ingrese nombre">
+            </div>
+            <div class="email">
+                <label for="input-email">Email</label>
+                <input type="email" required="required" name="email" autocomplete="email" placeholder="Ingrese email">
+            </div>
+            <div class="message">
+                <label for="input-message">Mensaje</label>
+                <textarea name="message" id="input-message" rows="4" placeholder="Dejanos tu mensaje"></textarea>
+            </div>
+            <div>
+                <input id="accept" type="checkbox" required="required">
+                <label for="accept">Acepto las Politicas de privacidad</label>
+            </div>
+            <button class="enviar">Enviar</button>
+        </div>
+    </section>
+    <footer>
+        <p>© 2022 JUMA, Todos los Derechos Reservados</p>
+    </footer>
 </body>
 
 </html>
